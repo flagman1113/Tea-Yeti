@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Чайный Йети</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:500&display=swap&subset=cyrillic" rel="stylesheet">
+
+    </head>
+    <body>
+    <style>
+        body {
+            margin: 0; 
+            height: 100vh; 
+            background-image: url('images/main.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: repeat; 
+        }
+        .top_menu, .top_block_wrapper, .content_wrapper, .bottom_menu {
+            position: relative; 
+            z-index: 1; 
+            color: white; 
+        }
+    </style>
+      <div class="top_menu">
+            <div class="picture0">
+                <img src="images/fored3.jpg">
+            </div> 
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">Наш адрес</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#app" class="menu_link">Забронировать стол</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#feedback" class="menu_link">Фото с места событий</a>
+                </li>
+            </ul>
+        </div>  
+        
+
+         <div class="scroll_up_arrow" id="scrollUpArrow"></div>
+        
+        <div class='first' id="goodsBlock">
+            <div class="title">
+            <h1 class="top_block_title" >
+                    Познай чайный дзен
+                </h1>
+                <h2 class="top_block_title2">Погрузись в мир чайных церемоний и раздели с друзьями этот ритуал, который поможет расслабиться и насладиться моментом.</h2>
+            </div>
+                    <div class="picture">
+                <img src="images/scale.png">
+            </div>
+        </div>
+        
+                <div class='second' id="goodsBlock">
+            <div class="picture2">
+                <img src="images/second.png">
+            </div>
+            <div class="title" >
+            <h1 class="top_block_title22">
+                    почему стоит нас посетить:
+                </h1>
+                <h2 class="top_block_title3">
+Вы узнаете больше о традициях и философии, связанных с чаем.
+</h2>         
+            </div>      
+        </div>
+        
+        
+         <div class='therd'  id="goodsBlock">
+             <div class="title">
+               <h2 class="top_block_title4">
+Чайная церемония помогает снять стресс и расслабиться.
+</h2>
+             </div>
+ <div class="picture3">
+                <img src="images/second7.jpg">
+            </div>
+        </div>
+        
+        
+         <div class='fored' id="goodsBlock">
+              <div class="picture4">
+                <img src="images/second4.jpg">
+            </div>
+              <div class="title">
+                <h2 class="top_block_title5">
+Откройте для себя искусство приготовления и подачи чая.
+</h2>         
+            </div>  
+        </div>
+        
+        
+          <div class='fived' id="goodsBlock">
+               <div class="title">
+               <h2 class="top_block_title6">
+Встречи с единомышленниками, обмен опытом и знаниями.
+</h2>
+              </div>
+ <div class="picture5">
+                <img src="images/therd2.jpg">
+            </div>
+        </div>      
+        
+       
+                <h1 class="block_Photo" id="feedback">
+                   Фото с места событий
+                </h1>
+        <div class="PPhoto" id="goodsBlock">
+         <div class='Photos'>
+            <div class="picture6">
+                <img src="images/photo3.jpg">
+            </div>
+            <div class="picture6">
+                <img src="images/photo5.jpg">
+            </div>
+            <div class="picture6">
+                <img src="images/photo10.jpg">
+            </div>
+             <div class="picture6">
+                <img src="images/photo16.jpg">
+            </div>
+            </div> 
+            <div class='Photos2'>
+            <div class="picture6">
+                <img src="images/photo18.jpg">
+            </div>
+            <div class="picture6">
+                <img src="images/photo12.jpg">
+            </div>
+            <div class="picture6">
+                <img src="images/photo19.jpg">
+            </div>
+             <div class="picture6">
+                <img src="images/photo17.jpg">
+            </div>
+        </div> 
+            
+             <div class='Photos2'>
+            <div class="picture6">
+                <img src="images/photo.jpg">
+            </div>
+            <div class="picture6">
+                <img src="images/photo13.jpg">
+            </div>
+            <div class="picture6">
+                <img src="images/photo15.jpg">
+            </div>
+             <div class="picture6">
+                <img src="images/photo14.jpg">
+            </div>
+        </div> 
+        </div>
+        
+         <h1 class="block_Photo" id="about">
+                   наш адрес
+                </h1>
+        <div class="maps" id="goodsBlock">
+            <div class="mmm">
+             <h2 class="map_title">
+г. Йошкар-Ола, Бульвар Чавайна, 36а 2 этаж
+</h2>
+                <div class="map2">
+                <img src="images/map2.png">
+            </div> 
+            </div>
+           <div class="map">
+                <img src="images/map.png">
+            </div> 
+            
+        </div>
+        <h1 class="block_Photo" id="app">
+                   забронировать стол
+                </h1>
+       
+                              <div class="f3">
+                      <h2 class="top_block_title7">Заполни форму и мы оставим для тебя стол</h2>
+                     </div>
+                 <div class="forma" id="goodsBlock">
+              <div class="f1">
+                
+                <form action="php/handler.php" method="get">
+                <input class="Name" type="text" name="name" placeholder="Введите ваше имя"><br>
+                <input class="Email" type="text" email="email" placeholder="Введите номер телефона"><br>
+               <button class="Form_button" type="submit">Забронировать</button>
+                 </form>
+                    </div>
+
+                    <div class="f2">
+                    <img src="images/fored22.jpg">
+                    </div>
+            
+      </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/app2.js"></script>
+    </body>
+</html>

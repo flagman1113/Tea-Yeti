@@ -1,0 +1,800 @@
+@font-face
+{
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Medium.ttf') format('ttf');
+  font-weight: 500;
+}
+
+
+@font-face
+{
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttf') format('ttf');
+  font-weight: 500;
+}
+
+@font-face
+{
+  font-family: "shinkansen.regular";
+  src: url("../fonts/shinkansen.regular.woff2") format("woff2");
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "rusmadeinchina";
+    src: url("../fonts/rusmadeinchina.woff2") format("woff2"); 
+
+    font-style: normal; 
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.top_menu
+{
+    display: flex;
+    text-align: center;
+}
+.menu_item
+{
+    list-style: none;
+	display: inline-block;
+}
+
+.menu_link
+{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 110%;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 15%;
+}
+.top_block_title
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-top: 5%;
+    margin-left: 13%;
+    color: #FFFFFF;
+    font-size: 550%;
+    flex: 1;
+    width: 90%;
+    font-weight: 30;
+    opacity: 0;
+    transform: translateX(-10%);
+    transition:  opacity 1s ease-out 0.2s,  
+                 transform 1s ease-out 0.2s;
+}
+
+.loaded .top_block_title
+{
+ opacity: 1;
+ transform: translateX(0);
+}  
+.top_block_title2
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-top: 15%;
+    margin-left: 13%;
+    color: #FFFFFF;
+    font-size: 280%;
+    flex: 1;
+    max-width: 100%;
+    font-weight: 30;
+    opacity: 0;
+    transform: translateX(-10%);
+    transition:  opacity 1s ease-out 0.2s,  
+                 transform 1s ease-out 0.2s;
+}
+
+.loaded .top_block_title2
+{
+ opacity: 1;
+ transform: translateX(0);
+}  
+.top_block_title22
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-top: 15%;
+    margin-left: 13%;
+    color: #FFFFFF;
+    font-size: 400%;
+    flex: 1;
+    max-width: 100%;
+    font-weight: 30;
+}
+
+.top_block_title3
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-top: 7%;
+    margin-left: 13%;
+    color: #FFFFFF;
+    font-size: 280%;
+    flex: 1;
+    max-width: 90%;
+    font-weight: 30;
+}
+.top_block_title4
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-left: 8%;
+    margin-top: 12%;
+    color: #FFFFFF;
+    font-size: 280%;
+    flex: 1;
+    max-width: 100%;
+    font-weight: 30;
+}
+.top_block_title5
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-top: 30%;
+    margin-left: 13%;
+    color: #FFFFFF;
+    font-size: 280%;
+    flex: 1;
+    max-width: 90%;
+    font-weight: 30;
+}
+.top_block_title6
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-left: 8%;
+    margin-top: 15%;
+    color: #FFFFFF;
+    font-size: 280%;
+    flex: 1;
+    max-width: 90%;
+    font-weight: 30;
+}
+.block_Photo
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 380%;
+    flex: 1;
+    max-width: 90%;
+    font-weight: 30;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.map_title
+{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 8%;
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-size: 180%;
+    flex: 1;
+    width: 150%;
+    font-weight: 80%;
+}
+.top_block_title7
+{
+    font-family: 'rusmadeinchina', sans-serif;
+    margin-left: 8%;
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-size: 280%;
+    flex: 1;
+    font-weight: 30;
+    width: 70%;
+}
+.zero
+{
+    display: flex;  
+}
+.first
+{
+    display: flex;  
+}
+.second
+{
+    display: flex;  
+}
+.therd
+{
+    display: flex;  
+}
+.fored
+{
+    display: flex;  
+}
+.fived
+{
+    display: flex;  
+}
+.PPhoto
+{
+    display: flex;  
+}
+.maps
+{
+    display: flex;  
+}
+.Photos
+{  
+    margin-left: 2%;
+    display: inline-block;   
+      max-width: 100%;
+}
+.Photos2
+{  
+    margin-left: 2%;
+    max-width: 100%;
+    display: inline-block;   
+}
+.picture0
+{   width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.picture0 img
+{
+    max-width: 100%;
+    height: auto;
+}
+.picture 
+{
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-right: 5%;
+    opacity: 0;
+    transform: translateX(10%);
+    transition:  opacity 1s ease-out 0.2s,  
+                 transform 1s ease-out 0.2s;
+    width: 100%;
+}
+
+.loaded .picture
+{
+ opacity: 1;
+ transform: translateX(0);
+}  
+.picture img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.picture2
+{
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+}
+.picture2 img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.picture3
+{
+   
+    margin-top: -5%;
+    width: 38%;
+}
+.picture3 img
+{
+    max-width: 90%;
+    height: auto;
+}
+
+
+
+.picture4
+{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 45%;
+}
+.picture4 img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.picture5
+{
+
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 45%;
+}
+.picture5 img
+{
+    max-width: 90%;
+    height: auto;
+}
+
+
+
+.picture6
+{
+    margin-top: 3%;
+    max-width: 100%;
+}
+.picture6 img
+{
+    width: 90%;
+    height: auto;
+}
+
+
+
+.map
+{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    width: 50%;
+}
+.map img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.map2
+{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 70%;
+}
+.map2 img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.Form_button
+{
+   margin-top: 2%;
+   margin-left: 20%;
+width: 40%;
+   height: 60px;
+   border-radius: 30px;
+   background-color: #0fa8ea;
+   font-size: 16px;
+   line-height: 66px;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: "Raleway", sans-serif;
+   text-align: center;     
+    cursor: pointer;
+    
+}
+.Form_button:hover
+{
+   margin-top: 2%;
+   margin-left: 20%;
+ width: 40%;
+   height: 60px;
+   border-radius: 30px;
+   background-color: #0b82b6;
+   font-size: 16px;
+   line-height: 66px;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: "Raleway", sans-serif;
+   text-align: center;     
+    cursor: pointer;
+}
+.f1
+{
+    margin-left: 10%;
+    width: 60%;
+}
+.text_forma
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    
+    color: #282b30;
+    max-width: 100%;
+}
+.forma
+{
+    display: flex;
+    width: 100%;
+}
+.hidden
+{
+    display:none;
+}
+.Email
+{
+     margin-top: 20px;
+     margin-left: 20%;
+    
+    background-repeat: no-repeat;
+    background-position: 30px 12.5px;
+   width: 30%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #0fa8ea;
+    font-size: 17px;
+letter-spacing: 0px;
+line-height: 47px;
+color: #777777;
+font-weight: 500;
+font-family: "Raleway";
+padding: 0 45px;
+    
+}
+.Name
+{
+    margin-top: 35px;
+  margin-left: 20%;
+    width: 30%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #0fa8ea;
+    font-size: 17px;
+letter-spacing: 0px;
+line-height: 47px;
+color: #777777;
+font-weight: 500;
+font-family: "Raleway";
+padding: 0 45px;
+   
+}
+
+
+
+.f2
+{
+    margin-top: -5%;
+    width: 20%;
+}
+.f2 img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.scroll_up_arrow
+{
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    background: url('../images/apppp.png') no-repeat;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.scroll_up_arrow.visible
+{
+    visibility: visible;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+   .top_block_title
+{
+    font-size: 430%;
+}
+    .top_block_title2
+{
+    font-size: 160%;
+}
+.top_block_title22
+{
+    font-size: 280%;
+}
+.top_block_title3
+{
+    font-size: 160%;
+}
+.top_block_title4
+{
+    font-size: 160%;
+    margin-bottom: 10%;
+}
+.top_block_title5
+{
+    font-size: 160%;
+    margin-bottom: 10%;
+}
+.top_block_title6
+{
+    font-size: 160%;
+    margin-bottom: 10%;
+   
+}
+    .top_block_title7
+{
+    font-size: 160%;
+    margin-bottom: 10%;
+   
+}
+.block_Photo
+{
+    font-size: 280%;
+}
+        .picture3
+    {
+        max-width: 100%;
+        margin-left: 15%;
+    }
+    .map
+{
+    margin-top: 15%;
+    
+}
+        .Form_button{
+    width: 46%;
+             margin-top: 5%;
+    }
+            .Email
+    {
+        margin-top: 2%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px)
+{
+.menu_link
+{
+    font-size: 80%;
+    }
+        .Email
+    {
+
+        margin-top: 2%;
+    }
+    .Form_button
+    {
+        width: 50%;
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 480px)
+{
+    .Email
+    {
+        width: 70%;
+    }
+    .Name
+    {
+        width: 70%;
+    }
+    .Form_button{
+    width: 103%;
+    }
+    .top_block_title7
+{
+    margin: auto; 
+}
+    .forma
+    {
+        width: 100%;
+    }
+    .block_Photo
+    {
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0; 
+}
+.f2
+    {
+        margin: auto;
+        width: 50%;
+    }
+    .f1
+    {
+        
+        text-align: center;
+        max-width: 100%;
+        margin-right: 15%;
+    }
+        .f3
+    {
+        margin-top: 5%;
+    }
+.menu_item {
+    margin: 0; 
+    padding: 1% 0; 
+}
+
+.menu_link {
+    text-decoration: none; 
+    color: inherit;
+    display: block; 
+    padding: 5px 10px; 
+    line-height: 1.2; 
+}
+    .map_title
+    {
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .first
+    {
+        flex-direction: column;
+    }
+    .second
+    {
+        flex-direction: column-reverse;
+    }
+    .therd
+    {
+        flex-direction: column;
+    }
+    .fored
+    {
+        flex-direction: column-reverse;
+    }
+    .fived
+    {
+        flex-direction: column;
+    }
+    .PPhoto
+    {
+        flex-direction: column;
+    }
+    .maps
+    {
+        flex-direction: column;
+    }
+    .forma
+    {
+      flex-direction: column-reverse;  
+    }
+    .picture
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .picture2
+    { 
+        width: 70%;
+        margin-left: 15%;
+    }
+    .picture3
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+        .picture4
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+        .picture5
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .picture6
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .map2
+    {
+        width: 70%;
+        margin:auto;
+          margin-top: 5%;
+    }
+    .map
+    {
+        width: 70%;
+        margin:auto;
+        margin-top: 5%;
+    }
+        .picture0
+    {
+        width: 40%;
+    }
+.top_block_title2
+{
+    margin-top: 5%;
+}
+.top_block_title5
+{
+    margin-bottom: -5%;
+     margin-top: 10%;
+    margin-left: 7%;
+}
+    .top_block_title6
+{
+    margin-top: 10%;
+    margin-bottom: 0;
+    max-width: 90%;
+}
+        .top_block_title4
+{
+    margin-top: 10%;
+    margin-bottom: 8%;
+    max-width: 80%;
+}
+    .top_block_title
+{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    max-width: 80%;
+}
+    .map_title
+    {
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 340px) {
+    .top_block_title {
+        font-size: 200%;
+    }
+    .map_title {
+        font-size: 150%;
+    }
+    
+    .menu_item {
+        margin: 0; 
+        padding: 0; 
+    }
+    
+    .menu {
+        height: auto; 
+        line-height: 1.2; 
+    }
+    
+    .menu_link {
+        display: block; 
+        margin: 0; 
+        padding: 8% 0; 
+        line-height: 1.2;
+    }
+    .Form_button{
+    width:115%;
+    }
+
+}
