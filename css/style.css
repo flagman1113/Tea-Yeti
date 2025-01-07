@@ -762,6 +762,9 @@ padding: 0 45px;
     {
         margin: auto;
     }
+        .Form_button{
+    width:90%;
+    }
 }
 
 
